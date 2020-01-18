@@ -9,4 +9,7 @@ fun main(){
     
     val array = Array(5){ it * 2}
     println(array.asList())
+    for ((index,element) in swarm.withIndex()){
+        println("Fish att $index is $element")
+    }
 }
